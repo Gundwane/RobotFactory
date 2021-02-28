@@ -10,7 +10,7 @@ namespace FactoryRobotPractice
         public const int Tank = 2;
         public const int Medic = 3;
 
-        public Robot CrearRobot(int tipoDeRobot)
+        public static Robot CrearRobot(int tipoDeRobot, string nombre = "")
         {
             switch (tipoDeRobot)
             {
