@@ -10,6 +10,7 @@ namespace FactoryRobotPractice
         {
             HP = 100;
             Damage = 30;
+            Tipo = "Guerrero";
             Console.WriteLine("Robot guerrero creado");
         }
     }

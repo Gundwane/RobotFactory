@@ -11,6 +11,7 @@ namespace FactoryRobotPractice
         {
             HP = 70;
             Damage = 10;
+            Tipo = "Médico";
             Console.WriteLine("Robot médico creado");
         }
 
