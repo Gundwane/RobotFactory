@@ -1,0 +1,13 @@
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\bin\Debug\netcoreapp3.1\FactoryRobotPractice.exe
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\bin\Debug\netcoreapp3.1\FactoryRobotPractice.deps.json
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\bin\Debug\netcoreapp3.1\FactoryRobotPractice.runtimeconfig.json
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\bin\Debug\netcoreapp3.1\FactoryRobotPractice.runtimeconfig.dev.json
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\bin\Debug\netcoreapp3.1\FactoryRobotPractice.dll
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\bin\Debug\netcoreapp3.1\FactoryRobotPractice.pdb
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\obj\Debug\netcoreapp3.1\FactoryRobotPractice.csprojAssemblyReference.cache
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\obj\Debug\netcoreapp3.1\FactoryRobotPractice.AssemblyInfoInputs.cache
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\obj\Debug\netcoreapp3.1\FactoryRobotPractice.AssemblyInfo.cs
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\obj\Debug\netcoreapp3.1\FactoryRobotPractice.csproj.CoreCompileInputs.cache
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\obj\Debug\netcoreapp3.1\FactoryRobotPractice.dll
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\obj\Debug\netcoreapp3.1\FactoryRobotPractice.pdb
+D:\.NetApps\FactoryRobotPractice\FactoryRobotPractice\obj\Debug\netcoreapp3.1\FactoryRobotPractice.genruntimeconfig.cache
