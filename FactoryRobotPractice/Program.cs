@@ -7,11 +7,14 @@ namespace FactoryRobotPractice
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Robot Factory");
-            Robot robotGuerrero = RobotFactory.CrearRobot(1);
-            Robot robotTanque = RobotFactory.CrearRobot(2);
-            Robot robotMedico = RobotFactory.CrearRobot(3);
+            WarriorRobot robotGuerrero = RobotFactory.CrearRobot<WarriorRobot>(1);
+            TankRobot robotTanque = RobotFactory.CrearRobot<TankRobot>(2);
+            MedicRobot robotMedico = RobotFactory.CrearRobot<MedicRobot>(3);
 
             robotGuerrero.Attack(robotTanque);
+            robotTanque.Attack(robotGuerrero);
+            robotGuerrero.Attack(robotTanque);
+            robotMedico.Repair(robotTanque);
         }
     }
 }

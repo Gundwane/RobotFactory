@@ -10,23 +10,23 @@ namespace FactoryRobotPractice
         public const int Tank = 2;
         public const int Medic = 3;
 
-        public static Robot CrearRobot(int tipoDeRobot, string nombre = "")
+        public static T CrearRobot<T>(int tipoDeRobot, string nombre = "")
         {
             switch (tipoDeRobot)
             {
                 case Warrior:
-                    Robot warrior = new WarriorRobot();
-                    return warrior;
+                    WarriorRobot warrior = new WarriorRobot();
+                    return (T)Convert.ChangeType(warrior, typeof(T)); ;
 
                 case Tank:
-                    Robot tank = new TankRobot();
-                    return tank;
+                    TankRobot tank = new TankRobot();
+                    return (T)Convert.ChangeType(tank, typeof(T)); ;
 
                 case Medic:
-                    Robot medic = new MedicRobot();
-                    return medic;
+                    MedicRobot medic = new MedicRobot();
+                    return (T)Convert.ChangeType(medic, typeof(T));
 
-                default: return null;
+                default: return (T)Convert.ChangeType(null, typeof(T));
             }
         }
     }

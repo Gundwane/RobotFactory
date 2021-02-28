@@ -45,16 +45,16 @@ namespace FactoryRobotPractice
             Console.WriteLine("HP: " + HP);
         }
 
-        public void InformThatRobotWasAttacked(int amountOfDamageReceived) 
+        private void InformThatRobotWasAttacked(int amountOfDamageReceived) 
         {
-            Console.WriteLine(Name + " fué atacado y recibió " + amountOfDamageReceived + " points of damage");
+            Console.WriteLine("Robot fué atacado y recibió " + amountOfDamageReceived + " puntos de daño");
         }
 
         public void BeRepaired(int pointsOfRepair)
         {
             HP += pointsOfRepair;
 
-            Console.WriteLine("El robot fué reparado por " + pointsOfRepair + " de puntos");
+            Console.WriteLine("Robot fué reparado por " + pointsOfRepair + " de puntos");
         }
         #endregion
     }
