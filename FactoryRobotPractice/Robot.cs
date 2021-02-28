@@ -49,6 +49,13 @@ namespace FactoryRobotPractice
         {
             Console.WriteLine(Name + " fué atacado y recibió " + amountOfDamageReceived + " points of damage");
         }
+
+        public void BeRepaired(int pointsOfRepair)
+        {
+            HP += pointsOfRepair;
+
+            Console.WriteLine("El robot fué reparado por " + pointsOfRepair + " de puntos");
+        }
         #endregion
     }
 }
