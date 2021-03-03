@@ -4,11 +4,11 @@ using System.Text;
 
 namespace FactoryRobotPractice
 {
-    public class TankRobot : Robot
+    public class TankRobot : Robot, IRobot
     {
         public TankRobot()
         {
-            HP = 130;
+            Hp = 130;
             Damage = 20;
             Tipo = "Tanque";
             Console.WriteLine("Robot tanque creado");

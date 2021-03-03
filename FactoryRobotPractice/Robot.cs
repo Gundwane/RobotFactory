@@ -9,7 +9,7 @@ namespace FactoryRobotPractice
         protected string name;
         private string tipo;
         protected int damage;
-        protected int HP;
+        private int hp;
         protected bool Alive = true;
         
 
@@ -17,14 +17,15 @@ namespace FactoryRobotPractice
         public string Name { get => name; set => name = value; }
         public int Damage { get => damage; set => damage = value; }
         protected string Tipo { get => tipo; set => tipo = value; }
+        protected int Hp { get => hp; set => hp = value; }
         #endregion
 
         #region Methods
         public void ReceiveDamage(int amountOfDamage)
         {
-            HP -= amountOfDamage;
+            Hp -= amountOfDamage;
 
-            if (HP <= 0)
+            if (Hp <= 0)
             {
                 Alive = false;
             }
@@ -44,7 +45,7 @@ namespace FactoryRobotPractice
 
         public void ShowHP()
         {
-            Console.WriteLine("HP: " + HP);
+            Console.WriteLine("HP: " + Hp);
         }
 
         private void InformThatRobotWasAttacked(int amountOfDamageReceived) 
@@ -54,7 +55,7 @@ namespace FactoryRobotPractice
 
         public void BeRepaired(int pointsOfRepair)
         {
-            HP += pointsOfRepair;
+            Hp += pointsOfRepair;
 
             Console.WriteLine(Tipo + " fué reparado por " + pointsOfRepair + " de puntos");
         }
